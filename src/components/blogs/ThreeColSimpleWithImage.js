@@ -33,23 +33,23 @@ export default () => {
   const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        "https://kidslox.com/wp-content/uploads/2018/04/woman-3083376_1280.jpg",
       category: "Event Tips",
-      title: "Finding Amazing Events Near You - Fast, Cheap & Free",
+      title: "AGENCY OPENS NEW BRANCH",
       url: "https://timerse.com"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1543365067-fa127bcb2303?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        "https://freerangestock.com/sample/120367/colleagues-in-a-business-meeting.jpg",
       category: "Reviews",
-      title: "The Top Rated Musical Concerts Worldwide in 2019",
+      title: "Putting People to work",
       url: "https://reddit.com"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://www.moneycrashers.com/wp-content/uploads/2019/03/female-ceos-influential-women-business.jpg",
       category: "Discover",
-      title: "This female band is making buzz all over the world",
+      title: "#1 STAFFING AGENCY OF 2015",
       url: "https://timerse.com"
     }
   ];
@@ -65,9 +65,9 @@ export default () => {
             <Column key={index}>
               <Card>
                 <Image imageSrc={post.imageSrc} />
-                <Category>{post.category}</Category>
+                {/* <Category>{post.category}</Category> */}
                 <Title>{post.title}</Title>
-                <Link href={post.url}>Read Post</Link>
+                <Link href={post.url}>Read more</Link>
               </Card>
             </Column>
           ))}

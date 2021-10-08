@@ -116,16 +116,6 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        {/* <Route path="/components/:type/:subtype/:name">
-          <ComponentRenderer />
-        </Route>
-        <Route path="/components/:type/:name">
-          <ComponentRenderer />
-        </Route>
-        <Route path="/thank-you">
-          <ThankYouPage />
-        </Route> */}
-        {/* Added as default path momentarily */}
         <Route path="/">
           <EventLandingPage />
         </Route>

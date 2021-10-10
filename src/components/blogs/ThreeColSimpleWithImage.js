@@ -42,7 +42,7 @@ export default () => {
       imageSrc:
         "https://freerangestock.com/sample/120367/colleagues-in-a-business-meeting.jpg",
       category: "Reviews",
-      title: "Putting People to work",
+      title: "PUTTING PEOPLE TO WORK",
       url: "https://reddit.com"
     },
     {
@@ -56,10 +56,10 @@ export default () => {
   return (
     <Container>
       <Content>
-        <HeadingInfoContainer>
+        {/* <HeadingInfoContainer>
           <HeadingTitle>Popular Blog Posts</HeadingTitle>
           <HeadingDescription>Some amazing blog posts that are written by even more amazing people.</HeadingDescription>
-        </HeadingInfoContainer>
+        </HeadingInfoContainer> */}
         <ThreeColumn>
           {blogPosts.map((post, index) => (
             <Column key={index}>
@@ -73,8 +73,6 @@ export default () => {
           ))}
         </ThreeColumn>
       </Content>
-      <DecoratorBlob1 />
-      <DecoratorBlob2 />
     </Container>
   );
 };

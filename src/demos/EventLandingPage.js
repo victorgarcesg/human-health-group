@@ -6,11 +6,12 @@ import Blog from "components/blogs/ThreeColSimpleWithImage.js";
 import Testimonial from "components/testimonials/TwoColumnWithImage.js";
 import ContactUsForm from "components/forms/SimpleContactUs.js";
 import Footer from "components/footers/SimpleFiveColumn.js";
+import Background from "components/hero/FullWidthWithImage.js"
 
 export default () => (
   <AnimationRevealPage>
     <Hero />
-    {/* <Features /> */}
+    <Features />
     <Blog />
     {/* <Testimonial /> */}
     <ContactUsForm />
